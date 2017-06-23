@@ -1,7 +1,10 @@
 serverless-slack-forwarder
 ==============================================================================
 
+[![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
+
 A HTTP service to receive various incoming data webhooks and forward them to slack.
+Built with the [Serverless](https://github.com/serverless/serverless) framework.
 
 Author: Konrad Markus <konker@iki.fi>
 Licence: ISC
@@ -18,6 +21,7 @@ The following incoming services are supported:
     - SLACK_WEBHOOK_URL: The Slack incoming webhook URL that you want to forward to
     - KEY: Some secret key of your choosing
 4) Intialize and deploy the serverless project
+
 
 ## Configuration
 ### Twilio
